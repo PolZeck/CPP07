@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   iter.hpp                                           :+:      :+:    :+:   */
+/*   Iter.hpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: pledieu <pledieu@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/19 09:43:39 by pledieu           #+#    #+#             */
-/*   Updated: 2026/01/19 09:47:08 by pledieu          ###   ########.fr       */
+/*   Updated: 2026/01/22 15:43:40 by pledieu          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,9 +17,9 @@
 
 /**
  * @brief Iterates through an array and applies a function to each element.
- * * @param array Pointer to the first element of the array[cite: 190].
- * @param length The number of elements in the array (passed as const)[cite: 191].
- * @param func The function (or function template) to be called on each element[cite: 192, 194].
+ * * @param array Pointer to the first element of the array
+ * @param length The number of elements in the array (passed as const)
+ * @param func The function (or function template) to be called on each element
  */
 template <typename T, typename F>
 void iter(T *array, size_t length, F func) {

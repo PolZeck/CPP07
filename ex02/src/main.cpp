@@ -6,7 +6,7 @@
 /*   By: pledieu <pledieu@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/19 09:53:38 by pledieu           #+#    #+#             */
-/*   Updated: 2026/01/19 09:53:44 by pledieu          ###   ########.fr       */
+/*   Updated: 2026/01/23 10:26:18 by pledieu          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,23 @@
 #include <iostream>
 #include <string>
 
+#include <iostream>
+
+// void testTableauClassique() {
+//     int tab[5] = {1, 2, 3, 4, 5};
+
+//     std::cout << "--- Tableau Classique (Dangereux) ---" << std::endl;
+//     // On accède à l'index 10 alors que le tableau s'arrête à 4
+//     std::cout << "Valeur à tab[10] : " << tab[110] << std::endl; 
+// }
+
 int main() {
+
+    // testTableauClassique();
+
+
+
+
     // Test 1: Empty array
     Array<int> empty;
     std::cout << "Empty size: " << empty.size() << std::endl;
